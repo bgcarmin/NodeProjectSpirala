@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slategray;
+}
+
+#vanjskiOkvir {
+    margin: 10px;
+    text-align: center;
+}
+
+#okvir {
+    display: table;
+    background-color: cadetblue;
+    padding: 10px;
+    border-style: solid;
+    margin: auto;
+}
+
+.unos {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+    margin: 5px;
+    font-weight: bold;
+}
+
+input {
+    display: table-cell;
+    margin: 5px;
+}

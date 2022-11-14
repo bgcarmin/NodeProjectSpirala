@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/postaviGrupu.css">
+    <script src="../js/postaviGrupu.js"></script>
+    <script src="../js/StudentAjax.js"></script>
+    <title>Postavi grupu</title>
+</head>
+<body>
+    <div id="vanjskiOkvir">
+        <div id="naslov">
+            <h1>Postavljanje grupe</h1>
+        </div>
+        <div id="okvir">
+            <form id="forma">
+                <div class="unos">
+                    <label for="inputIndex">Index</label>
+                    <input type="number" id="inputIndex">
+                </div>
+                <div class="unos">
+                    <label for="inputGrupa">Grupa</label>
+                    <input type="text" id="inputGrupa">
+                </div>
+                <button id="postaviGrupu" type="button">Postavi grupu</button>
+            </form>
+            <div id="ajaxstatus"></div>
+        </div>
+    </div>
+</body>
+</html>

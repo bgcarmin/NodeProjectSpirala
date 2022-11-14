@@ -1,0 +1,141 @@
+@objects
+	body body
+	h1 h1
+	prvaForma .prvaForma
+	drugaForma .drugaForma
+	odabirVjezbe #odabirVjezbe
+	odabirZadatka #odabirZadatka
+	odabirVerzije #odabirVerzije
+	errorsLog #errorsLog
+	komentar #komentar
+	bezGresaka #bezGresaka
+	labelaOdabirVjezbe label[for="odabirVjezbe"] 
+	labelaOdabirZadatka label[for="odabirZadatka"]
+	labelaOdabirVerzije label[for="odabirVerzije"]
+	labelaKomentar label[for="komentar"]
+	labelaErrorsLog label[for="errorsLog"]
+	labelaBezGresaka label[for="bezGresaka"] 
+	dugmeSlanje #dugmeSlanje
+	dugmeDodajRezultateTesta #dodajRezultateTesta
+
+= Width section =
+	h1:
+		width 90 to 100 % of body/width
+
+= Height section =
+
+= Inside section =
+	odabirVjezbe:
+		inside prvaForma
+	labelaOdabirVjezbe:
+		inside prvaForma
+	odabirZadatka:
+		inside prvaForma
+	labelaOdabirZadatka:
+		inside prvaForma
+	odabirVerzije:
+		inside prvaForma
+	labelaOdabirVerzije:
+		inside prvaForma
+	komentar:
+		inside prvaForma
+	labelaKomentar:
+		inside prvaForma
+	dugmeSlanje:
+		inside prvaForma
+	errorsLog:
+		inside drugaForma
+	labelaErrorsLog:
+		inside drugaForma
+	bezGresaka:
+		inside drugaForma
+	labelaBezGresaka:
+		inside drugaForma
+	dugmeDodajRezultateTesta:
+		inside drugaForma
+
+= Left of section =
+	labelaOdabirVjezbe:
+		left-of odabirVjezbe 
+	labelaOdabirZadatka:
+		left-of odabirZadatka
+	labelaOdabirVerzije:
+		left-of odabirVerzije
+	labelaKomentar:
+		left-of komentar
+	labelaErrorsLog:
+		left-of errorsLog
+	labelaBezGresaka:
+		left-of bezGresaka
+= Right of section =
+	odabirVjezbe:
+		right-of labelaOdabirVjezbe 
+	odabirZadatka:
+		right-of labelaOdabirZadatka
+	odabirVerzije:
+		right-of labelaOdabirVerzije
+	komentar:
+		right-of labelaKomentar
+	errorsLog:
+		right-of labelaErrorsLog
+	bezGresaka:
+		right-of labelaBezGresaka
+
+= Above section =
+	odabirVjezbe:
+		above odabirZadatka
+	odabirZadatka:
+		above odabirVerzije
+	odabirVerzije:
+		above komentar
+	komentar:
+		above dugmeSlanje
+	errorsLog:
+		above bezGresaka
+	bezGresaka:
+		above dugmeDodajRezultateTesta
+
+= Below section =
+	dugmeSlanje:
+		below komentar
+	komentar:
+		below odabirVerzije
+	odabirVerzije:
+		below odabirZadatka
+	odabirZadatka:
+		below odabirVjezbe
+	dugmeDodajRezultateTesta:
+		below bezGresaka
+	bezGresaka:
+		below errorsLog
+= Visible section =
+	odabirVjezbe:
+		visible
+	labelaOdabirVjezbe:
+		visible
+	odabirZadatka:
+		visible
+	labelaOdabirZadatka:
+		visible
+	odabirVerzije:
+		visible
+	labelaOdabirVerzije:
+		visible
+	komentar:
+		visible
+	labelaKomentar:
+		visible
+	dugmeSlanje:
+		visible
+	errorsLog:
+		visible
+	labelaErrorsLog:
+		visible
+	bezGresaka:
+		visible
+	labelaBezGresaka:
+		visible
+	dugmeDodajRezultateTesta:
+		visible
+
+= Inside partly section =

@@ -1,0 +1,92 @@
+@objects
+	body body
+	h1 h1
+	unutrasnjiOkvir .unutrasnjiOkvir
+	urlRep #urlRep
+	akGodina #akGodina
+	imeBrancha #imeBrancha
+	dugme #dugme
+	labelaUrlRep label[for="urlRep"]
+	labelaAkGodina label[for="akGodina"]
+	labelaImeBrancha label[for="imeBrancha"] 
+	
+
+= Width section =
+	h1:
+		width 90 to 100 % of body/width
+
+= Height section =
+
+= Inside section =
+	urlRep:
+		inside unutrasnjiOkvir
+	akGodina:
+		inside unutrasnjiOkvir
+	imeBrancha:
+		inside unutrasnjiOkvir
+	dugme:
+		inside unutrasnjiOkvir
+	labelaUrlRep:
+		inside unutrasnjiOkvir
+	labelaAkGodina:
+		inside unutrasnjiOkvir
+	labelaImeBrancha:
+		inside unutrasnjiOkvir
+
+= Left of section =
+	labelaUrlRep:
+		left-of urlRep 
+	labelaAkGodina:
+		left-of akGodina
+	labelaImeBrancha:
+		left-of imeBrancha
+= Right of section =
+	urlRep:
+		right-of labelaUrlRep 
+	akGodina:
+		right-of labelaAkGodina
+	imeBrancha:
+		right-of labelaImeBrancha
+
+= Above section =
+	urlRep:
+		above akGodina
+	akGodina:
+		above imeBrancha
+	imeBrancha:
+		above dugme
+	labelaUrlRep:
+		above labelaAkGodina
+	labelaAkGodina:
+		above labelaImeBrancha
+
+= Below section =
+	dugme:
+		below imeBrancha
+	imeBrancha:
+		below akGodina
+	akGodina:
+		below urlRep
+	labelaAkGodina:
+		below labelaUrlRep
+	labelaImeBrancha:
+		below labelaAkGodina
+= Visible section =
+	urlRep:
+		visible
+	akGodina:
+		visible
+	imeBrancha:
+		visible
+	dugme:
+		visible
+	unutrasnjiOkvir:
+		visible
+	labelaUrlRep:
+		visible
+	labelaAkGodina:
+		visible
+	labelaImeBrancha:
+		visible
+
+= Inside partly section =

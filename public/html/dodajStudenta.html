@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/dodajStudenta.css">
+    <script src="../js/dodajStudenta.js"></script>
+    <script src="../js/StudentAjax.js"></script>
+    <title>Dodaj studenta</title>
+</head>
+<body>
+    <div id="vanjskiOkvir">
+        <div id="naslov">
+            <h1>Dodavanje studenta</h1>
+        </div>
+        <div id="okvir">
+            <form id="forma">
+                <div class="unosStudenta">
+                    <label for="inputIme">Ime</label>
+                    <input type="text" id="inputIme">
+                </div>
+                <div class="unosStudenta">
+                    <label for="inputPrezime">Prezime</label>
+                    <input type="text" id="inputPrezime">
+                </div>
+                <div class="unosStudenta">
+                    <label for="inputIndex">Index</label>
+                    <input type="number" id="inputIndex">
+                </div>
+                <div class="unosStudenta">
+                    <label for="inputGrupa">Grupa</label>
+                    <input type="text" id="inputGrupa">
+                </div>
+                <button id="posaljiStudenta" type="button">Unesi studenta</button>
+            </form>
+            <div id="ajaxstatus"></div>
+        </div>
+    </div>
+</body>
+</html>

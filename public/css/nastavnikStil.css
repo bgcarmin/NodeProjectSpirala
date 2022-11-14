@@ -1,0 +1,137 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:slategray;
+}
+
+
+#meni {
+    height: 100px;
+    position: relative;
+    border-style: ridge;
+    background-color:cadetblue;
+}
+
+#meni ul{
+    margin: 10px;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 10px;
+}
+
+#meni li {
+    display: inline;
+    padding-right: 1em;
+}
+
+.kontejner {
+    display: flex;
+}
+
+.kontejner div {
+    padding: 0;
+    margin: 0;
+}
+
+#grupe {
+    border-style: ridge;
+    width: 40%;
+    padding: 10px;
+}
+
+#grupeTabela, 
+#grupeTabela th, 
+#grupeTabela td {
+    border: 1px solid black;
+    text-align: center;
+    background-color:cadetblue;
+}
+
+#grupeTabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#studenti {
+    border-style: ridge;
+    width: 60%;
+    padding: 20px;
+    
+}
+
+#studenti ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#studenti li {
+    list-style: none; 
+    display:inline-block;
+    padding: 4px;
+}
+
+.studentTabela table,
+.studentTabela th, 
+.studentTabela td {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: cadetblue; 
+}
+
+.studentTabela {
+    border: dotted white;
+}
+
+
+
+@media only screen and (max-width: 799px) {
+
+
+    .kontejner {
+        flex-direction: column-reverse;
+    }
+
+    #grupe {
+        width: 100%;
+        max-height: 200px;
+        overflow: scroll;
+    }
+
+    #studenti {
+        width: 100%;
+    }
+    
+
+    @media only screen and (max-width: 499px) {
+    
+        #meni {
+            text-align: center;
+        }
+
+        #meni ul {
+            position:absolute;
+            width:100%;
+            bottom:5px;
+            padding: 0;
+            margin:0;
+            text-align: center;
+        }
+
+        #meni li {
+            list-style: none;
+            display: list-item;
+            padding-bottom: 10px;
+        }
+
+        
+        #grupeTabela th:nth-child(2), th:nth-child(3), td:nth-child(2), td:nth-child(3) {
+            display: none
+          }
+    }
+}
+

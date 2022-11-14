@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: slategray;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    background-color: cadetblue;
+    padding: 5px;
+}
+.okvir {
+    margin: 10px;
+    text-align: center;
+}
+
+.prvaForma {
+    display: table;
+    background-color: cadetblue;
+    padding: 10px;
+    border-style: solid;
+    margin: auto;
+}
+
+.forma {
+    display: table-row;
+    text-align: left;
+}
+
+label {
+    display: table-cell;
+    margin: 5px;
+    font-weight: bold;
+}
+
+select {
+    display: table-cell;
+    margin: 5px;
+}
+
+input {
+    display: table-cell;
+    margin: 5px;
+}
+
+#dugmeSlanje {
+    display: table-cell;
+    text-align: right;
+}
+
+textarea {
+    display: table-cell;
+    margin: 5px;
+}
+
+label[for="komentar"] {
+    vertical-align: top;
+}
+
+.drugaForma {
+    display: table;
+    background-color: cadetblue;
+    padding: 10px;
+    border-style: solid;
+    margin: auto;
+}
+
+label[for="errorsLog"] {
+    vertical-align: top;
+}
+
+#dodajRezultateTesta {
+    display: table-cell;
+    text-align: right;
+}

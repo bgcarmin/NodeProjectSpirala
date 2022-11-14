@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadaci</title>
+    <link rel="stylesheet" href="../css/zadaciStil.css">
+</head>
+<body>
+    <div class="okvir">
+        <h1>Zadaci</h1>
+        <form class="prvaForma">
+            <div class="forma">
+                <label for="odabirVjezbe">Vježba:</label>
+                <select name="Odabir vježbe" id="odabirVjezbe">
+                    <option value="Vježba1">Vježba 1</option>
+                    <option value="Vježba2">Vježba 2</option>
+                    <option value="Vježba3">Vježba 3</option>
+                    <option value="Vježba4">Vježba 4</option>
+                </select>
+            </div>
+            <div class="forma">
+                <label for="odabirZadatka">Zadatak:</label>
+                <select name="Odabir zadatka" id="odabirZadatka">
+                    <option value="Zadatak1">Zadatak 1</option>
+                    <option value="Zadatak2">Zadatak 2</option>
+                    <option value="Zadatak3">Zadatak 3</option>
+                    <option value="Zadatak4">Zadatak 4</option>
+                </select>
+            </div>
+            <div class="forma">
+                <label for="odabirVerzije">Verzija:</label>
+                <select name="Odabir verzije" id="odabirVerzije">
+                    <option value="Verzija1">Verzija 1</option>
+                    <option value="Verzija2">Verzija 2</option>
+                    <option value="Verzija3">Verzija 3</option>
+                    <option value="Verzija4">Verzija 4</option>
+                </select>
+            </div>
+            <div class="forma">
+                <label for="komentar">Komentar:</label>
+                <textarea id="komentar" name="Komentar"></textarea>
+            </div>
+            <div></div>
+            <div id="dugmeSlanje">
+                <button id="dugme">Pošalji</button>
+            </div>
+        </form>
+        <br>
+        <form class="drugaForma">
+            <div class="forma">
+                <label for="errorsLog">Errors log:</label>
+                <textarea id="errorsLog" name="Errors"></textarea>
+            </div>
+            <div class="forma">
+                <label for="bezGresaka">Bez grešaka:</label>
+                <input type="checkbox" id="bezGresaka">
+            </div>
+            <div></div>
+            <div id="dodajRezultateTesta">
+                <button id="dugme">Dodaj rezultate testa</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

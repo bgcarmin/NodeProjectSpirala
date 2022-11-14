@@ -1,0 +1,32 @@
+{
+  "name": "wt21p18367",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://abegic2@bitbucket.org/abegic2/wt21p18367.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/abegic2/wt21p18367/issues"
+  },
+  "homepage": "https://bitbucket.org/abegic2/wt21p18367#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "chai-jquery": "^2.1.0",
+    "express": "^4.17.2",
+    "jsdom": "^19.0.0",
+    "mocha": "^9.1.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.13.0",
+    "sinon": "^12.0.1"
+  }
+}
